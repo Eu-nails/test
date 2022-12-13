@@ -1,0 +1,193 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #f6f6f6;
+	font-family: poppins;
+	
+}
+
+
+header{
+	background-color: #ee3e80;
+	display: flex;
+	justify-content: space-between;
+	margin: .3em auto 1em auto;
+	
+}
+
+.logo{
+	width: 5em;
+	margin: .2em 1em 1em .7em;
+}
+.logo-text{
+	font-size: 1.9em;
+	font-family:lily script one ;
+	text-decoration: none;
+	color: white;
+}
+
+.na-vv{
+	list-style: none;
+	display: flex;
+	margin-top: 3em;
+	margin-right: 1em;
+	
+}
+
+.na-v{
+	padding: .3em;
+	text-decoration: none;
+	color: white;
+}
+
+.na-v:hover{
+    color: cyan;
+}
+
+
+.container{
+	max-width: 90%;
+	margin: auto;
+	border-left: 1px #333;
+	border-right: 1px  #333;
+
+
+}
+
+section{
+	padding: 1.5em;
+	display: flex;
+}
+
+.v-page{
+	margin-top: 20em;
+	margin-left: -4em;
+	transition: 0.4s;
+    padding: 
+}
+.v-page:hover{
+	transform: scale(1.1);
+}
+.v-pg{
+	border: 1px solid black;
+	border-radius: .5em;
+	background-color: #ee3e80;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+
+
+}
+main{
+	line-height: 1.6em;
+}
+
+
+.blg{
+	padding: 0;
+	display: none;
+	list-style: none;
+
+}
+
+h3,h2,h1,h4,h5{
+	padding-left: -2em;
+}
+
+.click-hide{
+	display: none;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	background-color: #333;
+	align-items:center ;
+	flex-direction: column;
+	width: 100%
+}
+
+.foot-c,.click{
+	color: white;
+}
+.click{
+	padding: 0em 1em 0em 1em;
+	color: white;
+	text-decoration: none;
+	
+}
+.click:hover{
+color:#ee3e80 ;
+
+}
+
+@media only screen and (min-width: 500px){
+
+	.v-page{
+	margin-top: 17em;
+	margin-bottom: -1em;
+	width: 4em;
+}
+
+.v-pg{
+	border: 1px solid black;
+	border-radius: .5em;
+	background-color: #ee3e80;
+	padding: 5px;
+	color: white;
+	font-size: 1.1em;
+
+}
+
+}
+@media only screen and (min-width: 680px){
+
+	.na-vv{
+		display: flex;
+
+
+	}
+	.na{
+		margin-right: 1.3em;
+	}
+
+		.v-page{
+	margin-top: 16em;
+	margin-bottom: -1em;
+	width: 4em;
+}
+
+
+	.v-pg{
+		font-size: 1.2em;
+		padding: ;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 780px){
+.v-page{
+	margin-top: 13em;
+}
+
+}
+
+@media only screen and (min-width: 1020px){
+	.v-page{
+	margin-top: 12em;}
+	.container{
+	max-width: 70%;
+	margin: auto;
+	border-left: 1px solid #333;
+	border-right: 1px solid  #333;
+}
+}
+
+aside{
+	margin-left: 2em;
+}
+
+
+
